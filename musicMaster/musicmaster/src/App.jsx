@@ -22,7 +22,7 @@ class App extends Component{
         let FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;   // ` is called the back ticks
         const ALBUM_URL = "https://api.spotify.com/v1/artists/";
 
-        var accessToken = "BQDIEEmJkkeJy8RJqdIiArToPMM_hSt1GTglrwhgq1EW2inISgM0at15mUXn3jTWuLjFeGjmODxKTVkEyLwctti7uHN58YlQhSo7siBgUPPs1jFuY5uk4ucJGaP5o2sLjt1ZEA8hb3liqvHLnvqYjB4rel-7xr6MgnPXUt0iJESucIfePC6aNQ&refresh_token=AQAmyjNTNoSYWEqn5WQpuIz8-yewsUnzOtejUBQsEzzzqEjzUmicRsr3G8yTnrPR01kHb4Xf-QvMR4boT7UVj3DDqYCTPsb_JNT1i8juEUY03UnYyUtupLaBoqoynfBm8_s";
+        var accessToken = "BQBy4WOihqA0S6NWnmr6Wii-BFVaWSvoAOhNhLqaIWKZOBV134DBIlWTWkXrsd1wy5JLKk02-1LOBJ1-egEl3NZaC4mHFF4QBcOcIOoH0SU4LJcX_ig-ov-CRN4A4Bd-UzQq8wWjCzft491iRfZmKXrlFPeQ7R3z-ZoYMxD_Wp_-dGRUOPuMtg&refresh_token=AQAEtqZMe3IVJN0PLfJFuHR2KajvHVNPaBxM4wQBuhZ2HcTqnGEKetsVrbnUFRUbfAathYvU3Of4dE48pQeWvtkoGg-9QK7ACOPx0-h5UKKwxnV53xF6DNApOwL-VvBdma8";
         
         var myOptions = {
             method: 'GET',
